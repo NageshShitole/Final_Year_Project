@@ -1,0 +1,11 @@
+Create a file with name “ wpa_supplicant.conf ”.
+hostname :- raspberrybi.local
+port :- 22
+
+Login as : Pi
+Password : raspberry
+
+$ sudo apt update
+$ sudo apt upgrade -y
+$ curl -sSL https://install.pi-hole.net | bash
+$ pihole -a -p
